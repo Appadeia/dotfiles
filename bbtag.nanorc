@@ -1,0 +1,32 @@
+## Here is an example for Bourne shell scripts.
+# (?<=Here).*(?=string)
+
+syntax "bbtag" "\.bbtag$"
+color white ".*"
+# Color everything plain white by default
+
+color green "\{"
+color green "\}"
+# Color brackets green 
+
+color magenta start="\{" end="\;"
+# Select text between an opening bracket and a semicolon
+
+#color yellow start="\:" end="\;"
+# Select text in properties
+
+color green "\{"
+color green "\}"
+# Redo brackets to keep our precious formatting
+
+color yellow "\;"
+# Color semicolons yellow
+
+color brightwhite start="\/ " end="\/g"
+# Color global regular expressions white
+
+color cyan start="\{\/\/\;" end="}"
+# Color comments cyan
+
+# color green "[0-9]"
+# Color numbers green
