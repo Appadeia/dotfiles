@@ -1,3 +1,14 @@
 include /usr/share/nano/sh.nanorc
 include ~/bash.nanorc
 include ~/bbtag.nanorc
+set smooth
+set tabsize 4
+set tabstospaces
+set titlecolor brightred,normal
+set keycolor brightred,normal
+set functioncolor red,normal
+set linenumbers
+set numbercolor red,normal
+set morespace
+set constantshow
+set statuscolor brightwhite,normal
