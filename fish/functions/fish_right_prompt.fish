@@ -1,6 +1,5 @@
 function fish_right_prompt
     set sstatus $status
-    set_color -b black
     set_color white
     switch $sstatus
     case 0
