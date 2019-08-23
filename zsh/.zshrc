@@ -1,5 +1,6 @@
 #!/usr/bin/env zsh
-source $(antibody bundle < ~/.zsh_plugins)
+source <(antibody init)
+antibody bundle < ~/.zsh_plugins
 
 # Spaceship Customization
 
